@@ -40,6 +40,7 @@ public class CidadeDAO
         }
     }
     
+    //Insere uma cidade
     public boolean insereCidade(Cidade cidade)
     {
         try {
@@ -73,6 +74,7 @@ public class CidadeDAO
         }
     }
     
+    //Busca uma cidade com base no id do IBGE
     public Cidade buscarPorID(String id)
     {
         try {
@@ -108,6 +110,7 @@ public class CidadeDAO
         }
     }
     
+    //Retorna a lista com todas as cidades
     public List<Cidade> listar()
     {
         try {
@@ -143,6 +146,7 @@ public class CidadeDAO
         }
     }
     
+    //Retorna apenas as cidades que são capitais
     public List<Cidade> listarCapitais()
     {
         try {
@@ -178,6 +182,7 @@ public class CidadeDAO
         }
     }
     
+    //Remove uma cidade com base no id do IBGE
     public boolean excluir(String id)
     {
         try {
@@ -200,6 +205,7 @@ public class CidadeDAO
         }
     }
     
+    //Importa um arquivo excel para dentro do banco
     public boolean importar(String arquivo)
     {
         try {
@@ -227,6 +233,7 @@ public class CidadeDAO
         }
     }
     
+    //Retorna o estado com o maior número de cidades e também a quantidade de cidades
     public JsonObject buscarMaiorEstado()
     {
         try {
@@ -271,6 +278,7 @@ public class CidadeDAO
         }
     }
     
+    //Retorna o estado com o menor número de cidades e também a quantidade de cidades
     public JsonObject buscarMenorEstado()
     {
         try {
@@ -315,6 +323,7 @@ public class CidadeDAO
         }
     }
     
+    //Retorna a relação dos estados e a quantidade de cidades em cada um
     public List<JsonObject> listarEstados()
     {
         try {
@@ -355,6 +364,7 @@ public class CidadeDAO
         }
     }
     
+    //Retorna todas as cidades de um certo estado
     public List<String> listarCidadesDoEstado(String uf)
     {
         try {
@@ -387,6 +397,7 @@ public class CidadeDAO
         }
     }
     
+    //Retorna todas as cidades de acordo com o valor de uma das colunas do excel
     public List<Cidade> buscarCidadesPorColuna(String coluna, String texto)
     {
         try {
@@ -423,6 +434,7 @@ public class CidadeDAO
         }
     }
     
+    //Retorna a quantidade de cidades de acordo com o valor de uma das colunas do excel
     public int quantidadePorColuna(String coluna, String texto)
     {
         try {
