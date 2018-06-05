@@ -1,0 +1,22 @@
+1. http://localhost:8080/CidadesAPI/API/WS/Importar
+
+2. http://localhost:8080/CidadesAPI/API/WS/Capitais
+
+3. http://localhost:8080/CidadesAPI/API/WS/MaiorEstado
+   http://localhost:8080/CidadesAPI/API/WS/MenorEstado
+
+4. http://localhost:8080/CidadesAPI/API/WS/Estados
+
+5. http://localhost:8080/CidadesAPI/API/WS/Cidades/{id}
+
+6. http://localhost:8080/CidadesAPI/API/WS/CidadesDoEstado/{uf}
+
+7. http://localhost:8080/CidadesAPI/API/WS/Cidades/adicionar
+
+8. http://localhost:8080/CidadesAPI/API/WS/Cidades/excluir/{id}
+
+9. http://localhost:8080/CidadesAPI/API/WS/{coluna}/{texto}
+
+10. http://localhost:8080/CidadesAPI/API/WS/Quantidade/{coluna}/{texto}
+
+11. http://localhost:8080/CidadesAPI/API/WS/Quantidade
