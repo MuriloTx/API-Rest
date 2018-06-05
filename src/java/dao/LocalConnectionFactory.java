@@ -17,7 +17,6 @@ public class LocalConnectionFactory
     
     public static Connection create_connection()
     {
-        //String stringDeConexao = "jdbc:mysql://localhost:3306/cidades";
         String stringDeConexao = "jdbc:mysql://localhost/cidades?useTimezone=true&serverTimezone=UTC&useSSL=false";
         String usuario = "root";
         String senha = "1qazxsw2";
